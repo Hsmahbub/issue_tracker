@@ -1,0 +1,119 @@
+.dasboard-container {
+	background-color: aqua;
+	width: 1000px;
+	margin: auto;
+	border-radius: 5px;
+	padding-bottom: 2rem;
+}
+.container h1 {
+	font-size: 50px;
+}
+.wrapper {
+	display: flex;
+}
+.dashboard-item {
+	width: 200px;
+	margin: auto;
+	background-color: chartreuse;
+	border-radius: 5px;
+}
+/* form element  */
+.form-container {
+	width: 1000px;
+	margin: auto;
+	background-color: rgba(red, green, blue, 0.5);
+}
+.create-issue{
+	margin: 2rem;
+}
+.create-complaine-btn{
+	height: 40px;
+	width:200px;
+	background-color: green;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 1.2rem;
+}
+form {
+	width: 100%;
+	
+}
+
+form .input {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	margin-top: 1rem;
+}
+.input label {
+	text-align: left;
+	font-size: 1rem;
+	margin-bottom: 0.5rem;
+}
+.input .input-data {
+	width: 98%;
+	height: 2rem;
+	padding-left: 1rem;
+	background-color: aqua;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+.select{
+	width: 100% !important;
+}
+.submit-btn{
+ height: 40px;
+ width:100px;
+ display: flex;
+ align-self: start;
+ align-items: center;
+ justify-content: center;
+ margin-top: 1rem;
+ background-color: green;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+.submit-btn:focus{
+	background: rgb(5, 102, 5);
+}
+
+/* isuuelist style  */
+.issue-container{
+	width: 1000px;
+	margin: auto;
+
+}
+.issue-wrapper{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 100%;
+}
+.list-item{
+	background-color: tan;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	padding: 1rem;
+	font-weight: bold;
+	justify-content: center;
+	height: 200px;
+	margin-bottom: 1rem;
+}
+.items{
+	padding-bottom: 1rem;
+}
+.desc{
+	font-size: 25px;
+}
+.btn-group{
+	display: flex;
+}
+
+
